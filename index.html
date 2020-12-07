@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/32304a8d77.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <div class="nav-logo">
+                <span class="logo-1">
+                    <img src="./img/logo-light.png" id="img-logo">
+                </span>
+                <span class="logo-2">
+                    <img src="./img/logo.svg">
+                </span>
+            </div>
+            <div class="menu">
+            <div class="part-1">
+            <div style="margin: 0 15px;" ><i class="fa fa-bars" ></i></div>
+            <div class="search">
+            <button><span><i class="fa fa-search"></i></span>
+            <input type="text" placeholder="Search"></button>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Mega Menu <i class="fa fa-angle-down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="drop-flex">
+                        <div class="flex"> <a href="" style="font-weight: bold;">UI Components</a>  
+                         <a href="">Lightbox</a>
+                       <a href="">   Range Slider   </a>
+                        <a href=""> Sweet Alert</a>
+                         <a href="">Rating</a>
+                         <a href="">Forms</a>
+                         <a href="">Tables</a>
+                         <a href="">Charts</a></div>
+
+                        <div class="flex"> <a href="" style="font-weight: bold;">UI Components</a>
+                            <a href="">Lightbox</a>
+                            <a href=""> Range Slider </a>
+                            <a href=""> Sweet Alert</a>
+                            <a href="">Rating</a>
+                            <a href="">Forms</a>
+                            <a href="">Tables</a>
+                            <a href="">Charts</a></div>
+
+                            <div class="flex"> <a href="" style="font-weight: bold;">UI Components</a>
+                                <a href="">Lightbox</a>
+                                <a href=""> Range Slider </a>
+                                <a href=""> Sweet Alert</a>
+                                <a href="">Rating</a>
+                                <a href="">Forms</a>
+                                <a href="">Tables</a>
+                                <a href="">Charts</a></div>
+
+                                <div class="flex"> <a href="" style="font-weight: bold;">UI Components</a>
+                                    <a href="">Lightbox</a>
+                                    <a href=""> Range Slider </a>
+                                    <a href=""> Sweet Alert</a>
+                                    <a href="">Rating</a>
+                                    <a href="">Forms</a>
+                                    <a href="">Tables</a>
+                                    <a href="">Charts</a></div>
+
+                                    <div>
+                                        <img id="drop-img" src="./img/megamenu-img.png">
+                                    </div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="part-2">
+           <div class="flag"><img src="./img/us.jpg" style="width: 35px;">
+            <div class="flag-drop">
+                <div style="font-size: 16px; margin-bottom: 10px;"><img src="./img/us.jpg " style="width: 30px; margin-right: 15px;"> <span >English</span></div>
+                <div style="font-size: 16px; margin-bottom: 10px;"><img src="./img/italy.jpg " style="width: 30px; margin-right: 32px;"> <span >Italy</span></div>
+                <div style="font-size: 16px; margin-bottom: 10px;"><img src="./img/germany.jpg " style="width: 30px; margin-right: 5px;"><span>Germany</span> </div>
+            </div>
+        </div>
+        <i class="fa fa-archive" style="font-size: 28px; margin-left: 15px; margin-right: 15px; color: gray;"></i>
+        <i class="fa fa-tasks"style="font-size: 28px; margin-right: 15px; color: gray;" ></i>
+        <i class="fa fa-bell"style="font-size: 28px; color:  gray ; margin-right: 15px;" ></i>
+        <div class="profile"><img src="./img/avatar-1.jpg" style="width: 50px; border-radius: 50%; margin-right: 10px;"><span>Henry</span> <span><i class="fa fa-angle-down"></i></span></div>
+        <i class="fa fa-cog"></i>
+            </div>
+            </div>
+        </nav>
+    </div>
+    
+    
+    <!--1-->
+    <div class="content">
+    <!---->
+    <div class="menu-side">
+     <h4>MENU</h4>
+     <div class="drop"> <ul>
+     <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-home"></i></span> <p>Dashboargs</p> <span style="margin-left: 70px; background-color: cornflowerblue; border-radius: 50%; padding: 4px;">03</span>
+     <div class="drop-content">
+         <ul>
+            <li>Default</li>
+            <li>Saas</li>
+            <li>Caption</li>
+            <li>Content</li>
+         </ul>
+     </div> </li> </ul></div>
+    <div class="drop">
+        <ul>
+            <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-align-left"></i></span>
+                <p>Layouts</p> <span
+                    style="margin-left: 100px;"><i class="fa fa-angle-down"></i></span>
+                <div class="drop-content">
+                    <ul>
+                        <li>Default</li>
+                        <li>Saas</li>
+                        <li>Caption</li>
+                        <li>Content</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h4>APPS</h4>
+        <div class="drop">
+            <ul>
+                <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-calendar"></i></span>
+                    <p>Calendar</p> <span style="margin-left: 95px;"><i class="fa fa-angle-down"></i></span>
+                    <div class="drop-content">
+                        <ul>
+                            <li>Default</li>
+                            <li>Saas</li>
+                            <li>Caption</li>
+                            <li>Content</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-comment"></i></span>
+                            <p>Chat</p> <span style="margin-left: 125px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-fort-awesome"></i></span>
+                            <p>Ecommerce</p> <span style="margin-left: 73px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-bitcoin"></i></span>
+                            <p>Cripto</p> <span style="margin-left: 120px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-envelope"></i></span>
+                            <p>E-mail</p> <span style="margin-left: 113px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-briefcase"></i></span>
+                            <p>Projects</p> <span style="margin-left: 100px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-tasks"></i></span>
+                            <p>Tasks</p> <span style="margin-left: 120px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-id-card"></i></span>
+                            <p>Contacts</p> <span style="margin-left: 95px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <h4>PAGES</h4>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-user"></i></span>
+                            <p>Authentication</p> <span style="margin-left: 60px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-id-card"></i></span>
+                            <p>Utility</p> <span style="margin-left: 113px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <h4>COMPONENTS</h4>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-id-card"></i></span>
+                            <p>Utility</p> <span style="margin-left: 113px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-calendar"></i></span>
+                            <p>Calendar</p> <span style="margin-left: 95px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-comment"></i></span>
+                            <p>Chat</p> <span style="margin-left: 125px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-fort-awesome"></i></span>
+                            <p>Ecommerce</p> <span style="margin-left: 73px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-bitcoin"></i></span>
+                            <p>Cripto</p> <span style="margin-left: 120px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-envelope"></i></span>
+                            <p>E-mail</p> <span style="margin-left: 113px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-briefcase"></i></span>
+                            <p>Projects</p> <span style="margin-left: 100px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-tasks"></i></span>
+                            <p>Tasks</p> <span style="margin-left: 120px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-id-card"></i></span>
+                            <p>Contacts</p> <span style="margin-left: 95px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <h4>PAGES</h4>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-user"></i></span>
+                            <p>Authentication</p> <span style="margin-left: 60px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-id-card"></i></span>
+                            <p>Utility</p> <span style="margin-left: 113px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-map"></i></span>
+                            <p>MAPS</p> <span style="margin-left: 118px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <ul>
+                        <li><span style="margin-right: 15px; font-size: 20px;"><i class="fa fa-map"></i></span>
+                            <p>Multi level</p> <span style="margin-left: 85px;"><i class="fa fa-angle-down"></i></span>
+                            <div class="drop-content">
+                                <ul>
+                                    <li>Default</li>
+                                    <li>Saas</li>
+                                    <li>Caption</li>
+                                    <li>Content</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+    </div>
+    <!---->
+    <div class="flex-container">
+         <!---->
+        <div class="flex-container-1">
+        <div class="card">
+            <div class="card-1">     <div><p style="font-weight: bold; color: rgb(50, 50, 160);">Welcome Back !</p> <p style="color: rgb(50, 50, 160);">Skote Dashboar</p></div> <div><img src="./img/profile-img.png" alt="" style="width: 200px;"></div>   </div>
+            <div class="card-2"> <div class="card-22"> <img src="./img/avatar-1.jpg" style="border-radius: 50%; width: 70px; border: 3px solid white; margin-top: -40px;"> <p style="font-weight: bold;">Henry Price</p> <P>UI/UX Designer</P></div> 
+            <div class="card-22"> <p style="font-weight: bold;">125</p> <p>Projects</p> <button>View Profile -></button></div>
+             <div class="card-22"><p style="font-weight: bold;">125</p><p>Projects</p></div></div>
+        </div>
+        
+        
+        <div class="card-b">
+            <div class="card-b1">
+                <div class="card-b-1"> <h3>Monthly Earning</h3>
+                    <p>This month</p>
+                    <h3>$34,252</h3>
+                    <p><span style="color: green; margin-right: 5px;">12%</span>From previous period</p>
+                    <a href="">View More</a>
+                </div>
+                <div class="card-b-11"><i class="fa fa-spinner"></i></div>
+            </div>
+            <div class="card-b1"><p>We craft digital, graphic and dimensional thinking.</p></div>
+        </div></div>
+        <!---->
+        <div class="flex-container-2">
+            <div class="flex-cont-card">
+                <div class="cont-card">
+                    <div class="con-card"><P> Orders</P> <p style="font-weight: bold; font-size: 20px; margin-top: 0px;">1,235</p></div>
+                    <div style="padding-top: 1rem;"><i class="fa fa-bomb" id="bomb"></i></div>
+                </div>
+
+                <div class="cont-card">
+                    <div class="con-card">
+                        <P> Orders</P>
+                        <p style="font-weight: bold; font-size: 20px; margin-top: 0px;">1,235</p>
+                    </div>
+                    <div style="padding-top: 1rem;"><i class="fa fa-bomb" id="bomb"></i></div>
+                </div>
+
+                <div class="cont-card">
+                    <div class="con-card">
+                        <P> Orders</P>
+                        <p style="font-weight: bold; font-size: 20px; margin-top: 0px;">1,235</p>
+                    </div>
+                    <div style="padding-top: 1rem;"><i class="fa fa-bomb" id="bomb"></i></div>
+                </div>
+            </div>
+            <!---->
+            <div class="multi-level" >
+                <div class="header"><div><span style="font-size: 19px; font-weight: bold;">Email Sent</span></div>
+                <div style="font-size: 18px;"><span style="margin-right: 10px;">Week</span> <span style="margin-right: 10px;">Month</span> <span style="background-color: cornflowerblue; padding: 5px 14px; color: white; border-radius: 5px;"> Year</span></div>
+            </div>
+            <div class="level">
+                <div class="level-div" style="justify-content: space-between; margin-left: -27px;"> <span>0</span> <span>20 </span> <span>40</span> <span>60 </span> <span>80</span> <span>100</span></div>
+                <div class="level-div">
+                    <div class="series-a"><div class="head-a"> <div>Jan</div> <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div> </div> </div> 
+                    <div class="series-b"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 199px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 90px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 70px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 200px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 80px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 60px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 100px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 80px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 50px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 199px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 50px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 80px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 120px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 99px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 66px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 99px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 70px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 50px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 99px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 59px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 49px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 169px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 99px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 79px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 99px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 59px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 99px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 129px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 19px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 59px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                <div class="level-div">
+                    <div class="series-a" style="height: 119px;"><div class="head-a">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-b" style="height: 89px;"><div class="head-b">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                    <div class="series-c" style="height: 69px;"><div class="head-c">
+                        <div>Jan</div>
+                        <div class="head-a-1"> <i class="fa fa-circle"></i> <span>Series A: 44</span> </div>
+                    </div></div>
+                </div>
+                </div>
+                <div class="month"> <span>Jan</span> <span>Feb</span> <span>Mar</span> <span>Apr</span> <span>May</span> <span>Jun</span> <span>Jul</span> <span>Aug</span> <span>Sep</span> <span>Oct</span> <span>Nov</span> <span>Dec</span></div>
+                <div class="full">
+                    <div class="full-a"> <span><i class="fa fa-circle" style="color: blue;"></i></span> Series A</div>
+                    <div class="full-b"> <span><i class="fa fa-circle" style="color: coral;"></i></span> Series B </div>
+                    <div class="full-c"> <span><i class="fa fa-circle" style="color: green;"></i></span> Series C </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <!--next-->
+        <div class="tree-card">
+            <div class="social">
+                <h3 style="margin-left: 15px;">Social Source</h3>
+                <div class="social-f"><i class="fa fa-facebook"></i> <h3>Facebook - 125 sales</h3><p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p> <a href="">Learn more</a></div>
+                <div class="social-fti"> <div class="social-fb"><i class="fa fa-facebook"></i> <h3>FACEBOOK</h3>  <p>125 sales</p></div> 
+            <div class="social-fb"><i class="fa fa-twitter"></i>
+                <h3>Twitter</h3>
+                <p>125 sales</p>
+            </div>
+            <div class="social-fb"><i class="fa fa-instagram"></i>
+                <h3>Instagram</h3>
+                <p>125 sales</p>
+            </div>
+            </div></div> 
+            <!---->
+            <div class="info">
+                <h3 style="margin-left: 15px;">Activity</h3>
+                <div class="info-text"><P> <span><i class="fa fa-arrow-right" style="border: 1px solid black; border-radius: 50% ; padding:4px 5px; font-size: 12px; margin-right: 10px;"></i></span> 22 Nov <span><i class="fa fa-arrow-right" style="margin:2px; font-size:14px; color:rgb(114, 114, 207)"></i></span>
+                Responded to need “Volunteer Activities</P>
+                <P style="margin-right: 12px;"> <span><i class="fa fa-arrow-right"
+                            style="border: 1px solid black; border-radius: 50% ; padding:4px 5px; font-size: 12px; margin-right: 10px;"></i></span>
+                    22 Nov <span><i class="fa fa-arrow-right" style="margin:2px; font-size:14px; color:rgb(114, 114, 207)"></i></span>
+                    Everyone realizes why a new common language would be desirable... Read more</P>
+                <P> <span><i class="fa fa-arrow-right"
+                            style="border: 1px solid black; border-radius: 50% ; padding:4px 5px; font-size: 12px; margin-right: 10px;"></i></span>
+                    22 Nov <span><i class="fa fa-arrow-right" style="margin:2px; font-size:14px; color:rgb(114, 114, 207)"></i></span>
+                    Responded to need “Volunteer Activities</P>
+                <P> <span><i class="fa fa-arrow-right"
+                            style="border: 1px solid black; border-radius: 50% ; padding:4px 5px; font-size: 12px; margin-right: 10px;"></i></span>
+                    22 Nov <span><i class="fa fa-arrow-right" style="margin:2px; font-size:14px; color:rgb(114, 114, 207)"></i></span>
+                    Responded to need “Volunteer Activities</P></div>
+                    <div class="info-btn"><a href="">View More</a></div>
+            </div>
+            <!---->
+            <div class="top">
+                <h3>Top Cities Selling Product</h3>
+                <div class="top-s">
+                    <i class="fa fa-address-book" style="font-size: 50px; color: coral;"></i>
+                    <h3>1,456</h3>
+                    <p style="margin-top: 0;">San Francisco</p>
+                </div>
+                <div class="top-list">
+                    <div class="top-l">
+                        <P>San Francisco</P>
+                        <h3>1,456</h3>
+                       <div class="list-div"><div class="list"></div></div> 
+                    </div>
+                    <div class="top-l">
+                        <P>San Francisco</P>
+                        <h3>1,456</h3>
+                        <div class="list-div" style="justify-content: start; display: flex;">
+                            <div class="list" style="background-color:green; width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="top-l" style="border: none;">
+                        <P>San Francisco</P>
+                        <h3>1,456</h3>
+                        <div class="list-div" style="justify-content: start; display: flex;">
+                            <div class="list" style="background-color: coral; width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!---->
+        <div class="tbl">
+            <h3 style="margin-left: 15px;">Latest Transaction</h3>
+            <table style="width:100%; text-align: center;" >
+                <tr>
+                    <th><i class="fa fa-square"></i></th>
+                    <th>Order ID</th>
+                    <th>Billing Name</th>
+                    <th>Date</th>
+                    <th>Total</th>
+                    <th>Payment Status</th>
+                    <th>Payment Method</th>
+                    <th>View Details</th>
+                    
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td ><span style="padding: 4px 8px; color:green; background:rgb(176, 223, 176); border-radius: 10px;">Paid</spen></td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background: coral; border-radius: 10px;">View Details</span></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td><span style="padding: 4px 8px; color:rgb(155, 51, 51); background:rgb(204, 107, 107); border-radius: 10px;">Chargeback</spen>
+                    </td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background:rgb(107, 117, 204); border-radius: 10px;">View
+                            Details</span></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td><span style="padding: 4px 8px; color:green; background:rgb(176, 223, 176); border-radius: 10px;">Paid</spen>
+                    </td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background:rgb(107, 117, 204); border-radius: 10px;">View
+                            Details</span></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td><span style="padding: 4px 8px; color:green; background:rgb(176, 223, 176); border-radius: 10px;">Paid</spen>
+                    </td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background:rgb(107, 117, 204); border-radius: 10px;">View
+                            Details</span></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td><span style="padding: 4px 8px; color:rgb(129, 123, 42); background:rgb(197, 211, 134); border-radius: 10px;">Refund</spen>
+                    </td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background:rgb(107, 117, 204); border-radius: 10px;">View
+                            Details</span></td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-square"></i></td>
+                    <td style="font-weight: bold;">#SK2540</td>
+                    <td>Neal Matthews</td>
+                    <td>07 Oct, 2019</td>
+                    <td>$400</td>
+                    <td><span style="padding: 4px 8px; color:green; background:rgb(176, 223, 176); border-radius: 10px;">Paid</spen>
+                    </td>
+                    <td><i class="fa fa-cc-mastercard"></i> mastercard</td>
+                    <td><span style="padding: 4px 8px; color:white; background:rgb(107, 117, 204); border-radius: 10px;">View
+                            Details</span></td>
+                </tr>
+            </table>
+        </div>
+        <!---->
+        <div class="footer"><p style="color: rgb(126, 123, 118); margin: 25px;">Design & Develop by Themesbrand</p></div>
+    </div>
+    </div>
+</body>
+</html>
